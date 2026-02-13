@@ -39,6 +39,13 @@ These metrics measure the overlap between the predicted tumor region and the gro
 
 ## Results
 
+### Quantitative Results
+
+| Method   | Dice Score | Jaccard Score |
+|----------|------------|---------------|
+| Otsu     | 0.0645     | 0.0341        |
+| Sauvola  | 0.0428     | 0.0223        |
+
 Both Otsu and Sauvola produced very low overlap scores.
 
 - Otsu performed slightly better than Sauvola
@@ -64,4 +71,4 @@ The output displays:
 Install the required libraries:
 
 ```bash
-pip install opencv-python scikit-image tqdm matplotlib
+pip install opencv-python scikit-image tqdm matplotlib pandas
